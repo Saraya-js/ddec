@@ -22,7 +22,7 @@ h1{
     color:var(--color-principal1);
     font-family: 'Roboto', sans-serif;
     display:inline;
-    margin-left: 30rem;
+    margin-left: 36rem;
     font-size: 3rem;
     text-align: center;
     font-weight: 500;
@@ -56,7 +56,6 @@ h1{
 .main-nav__item a {
     color: var(--color-principal1);
     padding: 0.8rem;
-   /* text-decoration: none;*/
 }
 .main-nav__item a:hover {
     color:white;
@@ -81,11 +80,12 @@ h1{
     padding-top: 7rem;
     margin: auto;
     max-width: 1000px;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
 }
 .parrafo-presentacion{
     text-align: center;
 }
-
 footer {
     height: 274px;
     width: 100%;
@@ -93,14 +93,13 @@ footer {
 }
 .contacto {
     color:var(--color-principal1) ;
-    margin-top: 5rem;
     font-weight: 600;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
     text-align: center;
     background-color: blueviolet;
     display: inline;
-    margin: auto;
 }
 .texto-contacto a {
     color: var(--color-principal1) ;
