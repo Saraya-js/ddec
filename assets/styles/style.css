@@ -93,23 +93,19 @@ footer {
 }
 .contacto {
     color:var(--color-principal1) ;
-    margin-top: 5rem;
     font-weight: 600;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: blueviolet;
-    display: inline;
-    margin: auto;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
 }
 .texto-contacto a {
     color: var(--color-principal1) ;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family:  'Roboto', sans-serif;
-    display: inline-flex;
-    max-width: 3rem;
-   justify-content: center;
-   background-color: blueviolet;
+    display: block;
+    margin-left: 22rem;
 }
 .texto-contacto a:hover {
     color: white;
