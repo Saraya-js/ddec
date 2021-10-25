@@ -77,15 +77,31 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     height: 162px;
-    padding-top: 7rem;
+    padding-top: 4rem;
     margin: auto;
     max-width: 1000px;
-    /*margin-left: 150px;
-    margin-right: 150px;*/
+}
+.box-container{
+    display: flex;
+    justify-content: end;
+    padding-right: 15rem;
+
 }
 .parrafo-presentacion{
     text-align: center;
+    display: flex;
+    justify-content:flex-end;
+    height: 3rem;
+    width: 40rem;
 }
+img{
+    width: 12rem;
+    height: 12rem;
+    margin-left: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+/*footer*/
 footer {
     height: 274px;
     width: 100%;
@@ -96,19 +112,16 @@ footer {
     font-weight: 600;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    padding-top: 100px;
     text-align: center;
-    background-color: blueviolet;
-    display: inline;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
 }
 .texto-contacto a {
     color: var(--color-principal1) ;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family:  'Roboto', sans-serif;
-    display: inline-flex;
-    max-width: 3rem;
-   justify-content: center;
-   background-color: blueviolet;
+    display: block;
+    margin-left: 22rem;
 }
 .texto-contacto a:hover {
     color: white;
