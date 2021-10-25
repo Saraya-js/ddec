@@ -22,7 +22,7 @@ h1{
     color:var(--color-principal1);
     font-family: 'Roboto', sans-serif;
     display:inline;
-    margin-left: 30rem;
+    margin-left: 35rem;
     font-size: 3rem;
     text-align: center;
     font-weight: 500;
@@ -32,7 +32,7 @@ h1{
 .contenedor_vacio{
     height: 100px;
 }
-.nombre{
+.proyectos{
     color:var(--color-principal1);
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
